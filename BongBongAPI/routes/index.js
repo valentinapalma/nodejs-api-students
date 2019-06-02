@@ -13,7 +13,6 @@ router.use(function timeLog (req, res, next) {
 router.post("/students", student.post);
 router.get("/students", student.get);
 router.get("/students/:id", student.getById);
-// router.get("/students/:id", student.get);
 router.put("/students/:id", student.put);
 router.delete("/students/:id", student.deleteStudent);
 

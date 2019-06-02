@@ -1,11 +1,10 @@
 get = (req, res, next) => {
     var query;
     if (req.query.name) {
-        query = req.models.Student.findOne({name: req.query.name})
+        query = req.models.Student.findOne({ name: req.query.name })
     } else {
         query = req.models.Student.find()
     }
-
     query.exec().then((student) => {
         return res.send(student);
     }).catch((error) => {
@@ -16,6 +15,8 @@ get = (req, res, next) => {
 getById = (req, res, next) => {
     req.models.Student.findById(req.params.id).then((student) => {
         return res.send(student)
+    }).catch((error) => {
+        next(error)
     })
 }
 
