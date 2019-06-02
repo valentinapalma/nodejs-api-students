@@ -65,18 +65,40 @@ då hade ?username=random varit queryn.
 
 
 * **På vilka tre sätt kan man skicka in parametrar i en HTTP-request? Ge exempel med curl.**
-```
 
-```
+Path parameter: ``` curl -i -X GET "locahost:2000/students" ```
+
+Query parameter: ``` curl -i -X GET "localhost:2000/students?name=hildr ```
+
+Head parameter: ``` curl -i -X GET "localhost:2000/students -H "key":"value" ```
 
 ## 1.2 Feedback
+
+Det jag tycker om kursen....
 
 
 # Del 2 - Applikationen :computer:
 
-## POST 
+## 2.1 Hur man startar appen
+
+## 2.2 Hur applikationen fungerar
+### GET 
 ```
-curl -i -X POST "localhost:2001/user" -H "Content-Type: application/json; charset=utf-8" -d '{"userId":"4", "name":"Laquanda", "username":"laquisha", "email":"guppy@email.com", "address":{"street":"Django", "city":"Cocalcola", "zipcode":"32323"}}'
+curl -i -X GET "localhost:2000/students"
 ```
 
-Okej
+### POST 
+```
+curl -i -X POST "localhost:2000/students" -H "Content-Type: application/json; charset=utf-8" -d '{"name":"Steve Lacy", "email":"stevelacy@email.com", "address":{"street":"Gamineweg", "city":"Paramaribo", "zipcode":"94949"}}'
+```
+
+### PUT 
+```
+curl -i -X PUT "localhost:2000/students/idOfYourChoice" -H "Content-Type: application/json; charset=utf-8" -d '{"name":"New Name"}'
+```
+
+### DELETE
+```
+curl -i -X DELETE "localhost:2000/students/idOfYourChoice"
+```
+
