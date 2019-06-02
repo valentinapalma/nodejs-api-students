@@ -20,6 +20,7 @@ Här svaras det på fyra frågor och det ges även feedback om kursen hittills.
 
 ## 1.1 Frågor och svar
 * **Hur används HTTP-protokollet när du surfar in på en websida?**
+
 Exempel i det här fallet: http://www.smp.se/kultur-noje
 
 metod: ```GET```
@@ -34,6 +35,7 @@ Body: ```HTML, innehållet i hemsidan```
 
 
 * **Beskriv HTTP-protokollets vanligaste metoder och vad de gör.**
+
 ```GET``` - Hämtar information från en databas, beroende på vad det är för förfrågan så kan den hämta ut specifik data. 
 
 ```POST``` - Sänder information till servern som i sin tur uppdaterar i databasen. Till exempel att lägga till en ny användare.
@@ -44,6 +46,7 @@ Body: ```HTML, innehållet i hemsidan```
 
 
 * **"http://localhost:3000/users" är ett URI, beskriv vilka delar den består av och vad de kallas.**
+
 URI står för Uniform Resource Identifier och innehåller följande delar:
 ```scheme:[//authority/]path[/?query][#fragment]```
 
