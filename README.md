@@ -76,12 +76,15 @@ Head parameter: ``` curl -i -X GET "localhost:2000/students" -H "key":"value" ``
 
 ## 1.2 Feedback
 **Kursens takt**
+
 I början av kursen tyckte jag att det gick lite för fort och det var svårt att hänga med och förstå. Efter tiden så började jag förstå mer för jag gjorde exempel övningarna, och de var bygda steg för steg. Takten under första veckan var väldigt snabb, men den andra och tredje veckan (när vi haft den här inlämningsuppgiften) har det gått bättre. Jag tycker om när vi får jobba med inlämningsuppgiften medan vi lär oss.
 
 **Kursmaterial**
+
 Det är första kursen där vi har kursböcker, och jag tycker att det är ett bra alternativ om man vill lära sig saker mer djupgående och förstå. Det är viktigt tror jag att det finns alternativa källor för information än bara föreläsningarna, då det blir större chans för alla att förstå.
 
 **Format**
+
 Jag tycker att det har varit bra att det varit så praktiskt, då jag tycker att man lär sig bäst när man får göra. Learn by doing. Men teori är ändå viktigt då det hjälper en att förstå lite mer vad det är man håller på med. Jag skulle önska att du gick igenom sakerna lite mer. Till exempel de här övningsuppgifterna som finns på github, de var jättebra för de var indelade i steg och det gjorde att man fick göra lite i taget och förstå uppbyggnaden, men jag tror att det hade kunnat vara ännu bättre om du gick igenom de här stegen en och en, och att vi alla bearbetade av stegen tillsammans. Att du till exempel gick igenom *1. SimplestExpress* tillsammans med alla i klassen och så får alla jobba med den. Nästa gång går du igenom *2. routes* och alla jobbar tillsammans med steg två, osv. Det här gör att alla i klassen kommer i samma tempo och att saker förklaras på ett tydligare sätt för allihopa. Inlämningsuppgiften var bra då den relaterar till det vi gått igenom. Jag skulle kanske önska lite mer om hur man på bästa sätt använder API/backend i Frontend också.
 
 Hur som helst så tycker jag att kursen är rolig och lärorik. 
